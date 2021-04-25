@@ -20,4 +20,5 @@ public class FuncionarioDTO {
     private String cargo;
     private Setor setor;
     private Date DataNascimento;
+    private String cpf;
 }

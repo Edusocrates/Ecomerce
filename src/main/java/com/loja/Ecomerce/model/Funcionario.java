@@ -30,6 +30,8 @@ public class Funcionario {
     @Column
     @Temporal(TemporalType.DATE)
     private Date DataNascimento;
+    @Column
+    private String cpf;
 
 
 }
