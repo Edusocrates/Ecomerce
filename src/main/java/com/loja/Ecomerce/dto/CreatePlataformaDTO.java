@@ -9,9 +9,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class PlataformaDTO {
+public class CreatePlataformaDTO {
 
-    private Integer id;
     private String nome;
     private String descicao;
     private Integer memoria;

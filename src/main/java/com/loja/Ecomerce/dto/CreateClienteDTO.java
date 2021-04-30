@@ -5,14 +5,15 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class PlataformaDTO {
+public class CreateClienteDTO {
 
-    private Integer id;
     private String nome;
-    private String descicao;
-    private Integer memoria;
+    private String cpf;
+    private Date DataNascimento;
 }
