@@ -13,4 +13,8 @@ public interface FuncionarioService {
     FuncionarioDTO getFuncionarioById(Integer funcionarioId);
 
     List<FuncionarioDTO> getFuncionarioList(String name);
+
+    void deleteFuncionario(Integer id);
+
+    FuncionarioDTO updateFuncionario(CreateFuncionarioDTO createFuncionarioDTO, Integer funcionarioId);
 }
