@@ -17,6 +17,7 @@ import java.util.Date;
 public class Funcionario {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column
     private String matricula;
