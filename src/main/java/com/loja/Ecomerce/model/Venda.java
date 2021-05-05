@@ -70,14 +70,14 @@ public class Venda {
         this.dataVenda = dataVenda;
     }
 
-    public Venda(Integer id, String nome_produto, String descricao, Double valor, Date dataVenda) {
-        this.id = id;
-        this.nome_produto = nome_produto;
-        this.descricao = descricao;
-        this.valor = valor;
-        this.dataVenda = dataVenda;
-    }
-
-    public Venda() {
-    }
+//    public Venda(Integer id, String nome_produto, String descricao, Double valor, Date dataVenda) {
+//        this.id = id;
+//        this.nome_produto = nome_produto;
+//        this.descricao = descricao;
+//        this.valor = valor;
+//        this.dataVenda = dataVenda;
+//    }
+//
+//    public Venda() {
+//    }
 }

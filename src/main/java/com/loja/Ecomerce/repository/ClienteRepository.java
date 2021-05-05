@@ -15,6 +15,6 @@ public interface ClienteRepository extends JpaRepository<Cliente,Integer> {
     @Query(nativeQuery = true, value = "SELECT c FROM Cliente c WHERE c.Id =:clienteId")
     Cliente getFuncionarioById(@Param("clienteId") Integer clienteId);
 
-    @Query(nativeQuery = true,value = "SELECT c FROM Cliente c")
+    @Query(nativeQuery = true,value = "SELECT * FROM Cliente c")
     List<Cliente> getAllFuncionarios();
 }
