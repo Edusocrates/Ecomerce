@@ -45,11 +45,13 @@ public class FuncionarioController {
         service.deleteFuncionario(id);
         return ResponseEntity.ok(null);
     }
+    @PutMapping
+    @ApiOperation("atualiza um funcionario")
     public ResponseEntity<FuncionarioDTO> updateFuncionario(@RequestParam CreateFuncionarioDTO createFuncionarioDTO,
                                                       @RequestParam Integer funcionarioId){
         FuncionarioDTO funcionarioDTO = service.updateFuncionario(createFuncionarioDTO,funcionarioId);
 
-        return ResponseEntity.ok(null);
+        return ResponseEntity.ok(funcionarioDTO);
     }
 
 
