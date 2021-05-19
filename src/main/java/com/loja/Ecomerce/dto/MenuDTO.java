@@ -54,4 +54,7 @@ public class MenuDTO {
     public void setPerfil(Perfil perfil) {
         this.perfil = perfil;
     }
+
+    public MenuDTO() {
+    }
 }
